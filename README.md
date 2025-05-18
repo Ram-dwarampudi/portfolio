@@ -52,7 +52,7 @@ portfolio/
    cd portfolio
 3.Open index.html in your browser.
 
-🙋‍♂️ About Me
+##🙋‍♂️ About Me
 I'm a 1st-year CSBS student at Vishnu Institute of Technology with a passion for C programming, IoT, and ML. I’ve worked on projects like:
 
 🔥 Smart Fire Detection & Prevention System using Arduino + Blynk
