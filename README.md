@@ -1,96 +1,94 @@
-# Ram Dwarampudi � Portfolio
+# 🚀 Ram Dwarampudi — Modern Developer Portfolio
 
-My personal developer portfolio showcasing skills, projects, and experience.
-
-**?? Live:** [ramportfolio-blond.vercel.app](https://ramportfolio-blond.vercel.app)
+A completely restructured, high-performance developer portfolio engineered with a **futuristic cybernetic / Linear-inspired dark aesthetic**, dynamic micro-animations, an in-browser **Ram-CLI interactive terminal**, **3D tilt project cards with deep-dive modals**, and modern design tokens.
 
 ---
 
-## ?? About
+## ✨ Key Features & Architecture
 
-A fully responsive single-page portfolio built with vanilla HTML, CSS, and JavaScript. Features a dark glassmorphism design with particle animations, scroll-reveal effects, and smooth micro-interactions.
-
----
-
-## ?? Features
-
-- ? Fully responsive across all devices
-- ?? Dark glassmorphism UI with particle canvas
-- ?? Animated gradients and scroll-reveal effects
-- ?? Skills tab with animated progress bars
-- ?? Downloadable resume link
-- ?? GitHub, LinkedIn, and email social links
-- ?? Mobile hamburger menu
-- ?? Contact form with toast notification
-- ?? OG/Twitter meta tags for rich social previews
+- ⚡ **Futuristic UI/UX**: Aurora ambient glow, cursor spotlight engine, particle canvas mesh, and glassmorphism.
+- 💻 **Ram-CLI Developer Terminal**: In-browser interactive workstation with command parser (`help`, `about`, `skills`, `projects`, `education`, `contact`, `sudo hire`), arrow key history buffer, and tab autocomplete.
+- 🎯 **3D Tilt Projects & Deep-Dive Modals**: Dynamic case-study lightboxes with problem statements, architectural highlights, and tech stacks.
+- 🛠️ **Categorized Skills Matrix**: Filterable capabilities across Systems & C, AI/LLMs, IoT/Hardware, and Web Engineering.
+- 🔊 **Web Audio Sound Effects**: Integrated synthesizer sound effects for clicks, terminal keystrokes, and toasts (with persistent mute toggle).
+- 📱 **100% Responsive & Accessible**: Mobile drawer navigation, fluid typography (`Plus Jakarta Sans` & `JetBrains Mono`), and semantic HTML5.
+- 📋 **1-Click Copy & Confetti Submission**: Instant clipboard copy for email/phone with interactive celebration confetti on contact transmissions.
 
 ---
 
-## ??? Tech Stack
+## 📂 Project Structure
 
-| Layer | Technology |
-|---|---|
-| Structure | HTML5 |
-| Styling | Vanilla CSS (glassmorphism, CSS variables, animations) |
-| Logic | Vanilla JavaScript (ES6+) |
-| Fonts | Outfit + JetBrains Mono (Google Fonts) |
-| Icons | Font Awesome 6 |
-| Hosting | Vercel |
-| Version Control | Git + GitHub |
-
----
-
-## ?? Project Structure
-
-`
+```text
 portfolio/
-+-- index.html          # Main single-page application
-+-- .gitignore          # Git ignore rules
-+-- README.md           # This file
-`
+├── index.html                 # Semantic HTML5 master document with SEO/OG meta
+├── README.md                  # Project documentation & customisation guide
+├── css/
+│   ├── main.css               # Design tokens, CSS variables, typography, reset
+│   ├── components.css         # Navbar, Hero, Terminal, Cards, Modal, Timeline
+│   └── animations.css         # Keyframe animations, pulse, float, reveal
+├── js/
+│   ├── main.js                # Canvas particle mesh, audio engine, typewriter, scroll spy
+│   ├── terminal.js            # Ram-CLI command engine, history, tab-completion
+│   ├── projects.js            # 3D tilt physics, category filters, case study modal
+│   └── contact.js             # Form validation, copy-to-clipboard, confetti explosion
+└── assets/
+    └── images/
+        ├── avatar.jpg                 # Stylized profile image placeholder
+        ├── project-ai-bot.jpg         # Gemini AI Chatbot thumbnail
+        ├── project-iot-fire.jpg       # IoT Smart Fire Safety thumbnail
+        ├── project-grade-engine.jpg   # C Grade Management Engine thumbnail
+        └── project-neural-matrix.jpg  # AI Agent Workflow thumbnail
+```
 
 ---
 
-## ??? Run Locally
+## 🖼️ How to Update Photos & Projects
 
-1. Clone the repository:
-   `ash
-   git clone https://github.com/Ram-dwarampudi/portfolio.git
-   cd portfolio
-   `
+You can replace any photo at any time by simply overwriting the files in `assets/images/`:
 
-2. Open index.html in your browser � no build step needed.
-
----
-
-## ?? Projects Showcased
-
-| Project | Tech | Link |
+| File | Purpose | Recommended Size |
 |---|---|---|
-| Student Grade Management System | C Language | [GitHub](https://github.com/Ram-dwarampudi/databasemanagement) |
-| Conversational AI Chatbot | Gemini API, JS | [GitHub](https://github.com/Ram-dwarampudi/chatbot-demo1) |
-| Smart Fire Detection & Prevention | Arduino, Blynk, IoT | [GitHub](https://github.com/Ram-dwarampudi) |
+| `assets/images/avatar.jpg` | Your personal profile picture | 800 x 800 px (Square) |
+| `assets/images/project-ai-bot.jpg` | Conversational AI project banner | 1920 x 1080 px (16:9) |
+| `assets/images/project-iot-fire.jpg` | IoT Smart Fire project banner | 1920 x 1080 px (16:9) |
+| `assets/images/project-grade-engine.jpg` | C Language Grade System banner | 1920 x 1080 px (16:9) |
+| `assets/images/project-neural-matrix.jpg` | AI Agent project banner | 1920 x 1080 px (16:9) |
 
 ---
 
-## ?? About Me
+## 🚀 Running Locally
 
-I'm a 1st-year B.Tech student in Computer Science & Business Systems at **Vishnu Institute of Technology**. Passionate about:
-- ?? C Programming & IoT (Arduino, Blynk)
-- ?? Machine Learning & AI (BigML, Gemini API)
-- ?? Web Development (HTML, CSS, JavaScript)
-- ?? Building my own startup in the future
+### Option 1: Direct in Browser
+Simply double-click `index.html` in Windows Explorer or open it in your browser.
+
+### Option 2: Using Python HTTP Server
+```bash
+cd portfolio
+python -m http.server 3000
+```
+Then visit `http://localhost:3000`.
+
+### Option 3: Using Node / npx serve
+```bash
+cd portfolio
+npx serve .
+```
 
 ---
 
-## ?? Connect
+## 🌐 Deploying to Vercel or GitHub Pages
 
-| Platform | Link |
-|---|---|
-| ?? LinkedIn | [linkedin.com/in/ram-dwarampudi-7a7a12316](https://www.linkedin.com/in/ram-dwarampudi-7a7a12316/) |
-| ?? GitHub | [github.com/Ram-dwarampudi](https://github.com/Ram-dwarampudi) |
-| ?? Email | ramdwarampudi19@gmail.com |
+### Deploying to Vercel (Recommended)
+1. Push this folder to your GitHub repository:
+   ```bash
+   git init
+   git add .
+   git commit -m "Restructure: Modern futuristic portfolio overhaul"
+   git remote add origin https://github.com/Ram-dwarampudi/portfolio.git
+   git push -u origin main --force
+   ```
+2. Link the repository on [Vercel](https://vercel.com) and it will automatically deploy the static site!
 
 ---
 
-� 2025 Ram Dwarampudi. All rights reserved.
+© 2026 Ram Dwarampudi. All rights reserved.
