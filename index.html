@@ -544,17 +544,30 @@
           <p class="section-subtitle">Real-world applications spanning Machine Learning classification, Agentic AI, Data Analytics, and Systems Engineering.</p>
         </div>
 
-        <!-- Project Filter Buttons -->
-        <div class="projects-filter-bar reveal">
-          <button class="project-filter-btn active" data-filter="all">All Projects</button>
-          <button class="project-filter-btn" data-filter="Machine Learning &amp; Healthcare">Machine Learning &amp; Health</button>
-          <button class="project-filter-btn" data-filter="AI &amp; Agentic Systems">AI &amp; Agents</button>
-          <button class="project-filter-btn" data-filter="Systems &amp; Java/C">Data &amp; Systems (Java/C)</button>
-          <button class="project-filter-btn" data-filter="IoT &amp; Hardware">Data Telemetry &amp; IoT</button>
+        <!-- Project Header Controls (Filters + Carousel Navigation) -->
+        <div class="projects-header-controls reveal">
+          <div class="projects-filter-bar">
+            <button class="project-filter-btn active" data-filter="all">All Projects</button>
+            <button class="project-filter-btn" data-filter="Machine Learning &amp; Healthcare">Machine Learning &amp; Health</button>
+            <button class="project-filter-btn" data-filter="AI &amp; Agentic Systems">AI &amp; Agents</button>
+            <button class="project-filter-btn" data-filter="Systems &amp; Java/C">Data &amp; Systems (Java/C)</button>
+            <button class="project-filter-btn" data-filter="IoT &amp; Hardware">Data Telemetry &amp; IoT</button>
+          </div>
+
+          <div class="carousel-nav-buttons">
+            <span class="carousel-hint"><i class="fas fa-arrows-alt-h"></i> Scroll &rarr;</span>
+            <button id="project-scroll-prev" class="carousel-btn" aria-label="Previous Projects" title="Scroll Left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="project-scroll-next" class="carousel-btn" aria-label="Next Projects" title="Scroll Right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
         </div>
 
-        <!-- Projects Grid -->
-        <div class="projects-grid reveal">
+        <!-- Projects Horizontal Track -->
+        <div class="projects-carousel-wrapper reveal">
+          <div class="projects-grid" id="projects-carousel-track">
 
           <!-- 1. Disease Detection Based on Symptoms -->
           <div class="project-card spotlight-card" data-category="Machine Learning &amp; Healthcare" data-tilt>
@@ -791,10 +804,9 @@
               </div>
             </div>
           </div>
-
         </div>
 
-        <div style="text-align:center;margin-top:3.5rem;" class="reveal">
+        <div style="text-align:center;margin-top:2.5rem;" class="reveal">
           <a href="https://github.com/Ram-dwarampudi" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
             <i class="fab fa-github"></i> View All 19 Repositories on GitHub <i class="fas fa-arrow-right" style="font-size:0.8rem;"></i>
           </a>
